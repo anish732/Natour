@@ -44,10 +44,41 @@ body {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 33px;
+  animation-name: moveInLeft;
+  animation-duration: 3s;
 }
 .heading-primary-sub {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  letter-spacing: 17.5px;
+  letter-spacing: 18.5px;
+  animation-name: moveInRight;
+  animation-duration: 3s;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
