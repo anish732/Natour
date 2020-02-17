@@ -265,4 +265,7 @@ body {
 .section-feature {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, #7fd56791, #28b485d3), url("../img/nat-4.jpg");
-  background-size: cover; }
+  background-size: cover;
+  transform: skewY(-7deg); }
+  .section-feature > * {
+    transform: skewY(7deg); }
