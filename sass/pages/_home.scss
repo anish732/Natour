@@ -8,7 +8,7 @@
   padding: 20rem 0;
   background-image: linear-gradient(
       to right bottom,
-      $color-primary,
+      $color-primary-light,
       $color-primary-dark
     ),
     url("../img/nat-4.jpg");
@@ -30,4 +30,19 @@
 .section-stories {
   padding: 15rem 0;
   position: relative;
+}
+
+.section-book {
+  padding: 15rem o;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+}
+
+.book {
+  background-image: url(../img/nat-10.jpg);
+  background-size: cover;
+  height: 50rem;
 }

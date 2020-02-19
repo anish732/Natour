@@ -431,7 +431,7 @@ body {
 
 .section-feature {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, #7fd56791, #28b485d3), url("../img/nat-4.jpg");
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485d3), url("../img/nat-4.jpg");
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -9rem; }
@@ -446,3 +446,12 @@ body {
 .section-stories {
   padding: 15rem 0;
   position: relative; }
+
+.section-book {
+  padding: 15rem o;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485d3); }
+
+.book {
+  background-image: url(../img/nat-10.jpg);
+  background-size: cover;
+  height: 50rem; }
