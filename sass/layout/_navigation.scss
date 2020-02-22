@@ -1,8 +1,17 @@
 .navigation {
   &__checkbox {
+    display: none;
   }
 
   &__button {
+    background-color: $color-white;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 6rem;
+    right: 6rem;
+    z-index: 1000;
   }
 
   &__background {
@@ -16,6 +25,7 @@
       $color-primary-light,
       $color-primary-dark
     );
+    z-index: 100;
   }
 
   &__nav {
