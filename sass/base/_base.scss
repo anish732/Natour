@@ -5,9 +5,26 @@
   padding: 0;
   box-sizing: inherit;
 }
+
 html {
   font-size: 62.5%;
+
+  @include respond(tab-land) {
+    font-size: 70%;
+  }
+
+
+  @include respond(tab-port) {
+    font-size: 60%;
+  }
+
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+
 }
+
 body {
   box-sizing: border-box;
 }
